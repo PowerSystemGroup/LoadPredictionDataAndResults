@@ -27,7 +27,7 @@ start = 0
 start = time.perf_counter()
 
 parse_dates = ['date']
-df = pd.read_csv('selected_data_ISONE.csv', parse_dates=parse_dates, index_col='date')
+df = pd.read_csv('ISO-NE.csv', parse_dates=parse_dates, index_col='date')
 #Get daily maximum and minimum loads
 MaximumLoadDays = df.groupby('date').demand.max().values
 MinimumLoadDays = df.groupby('date').demand.min().values
