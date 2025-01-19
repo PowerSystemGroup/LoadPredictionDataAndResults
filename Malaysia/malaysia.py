@@ -5,8 +5,6 @@ Created on 2023/9  malaysia
 @author: DJZ XMQ
 """
 
-################################################################################
-## Keras implementation of day-ahead prediction of the ISO-NE hourly demand data.
 
 # -----------------------------------------------------------------------------
 # load original data file
